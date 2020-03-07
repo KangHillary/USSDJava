@@ -1,0 +1,21 @@
+Generate token
+	Request:
+		client secret
+		client key
+	response:
+		Token
+
+Create transaction
+	Request:
+		Auth 
+			Token
+		Data
+			Last name 
+			Other names
+			Customer mobile 
+			Identification 
+			Recipient details 
+			Transaction type
+	Response:
+		StatusCode
+		Ref (GUID)
