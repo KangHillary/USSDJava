@@ -1,0 +1,70 @@
+Generate token
+	Request:
+		client secret
+		client key
+	response:
+		Token
+
+Create transaction
+	Request:
+		Auth 
+			Token
+		Data
+			Last name 
+			Other names
+			Customer mobile 
+			Identification 
+			Recipient details 
+			Transaction type
+	Response:
+		StatusCode
+		Ref (GUID)
+
+Block transaction
+	Request
+		Auth
+			Token
+		Data
+			GUID
+			Action(block)
+
+Confirm transaction
+	Request
+		Auth
+			Token
+		Data
+			GUID
+			Action(Confirm)
+			
+Fetch specific transaction
+	Request
+		Auth
+			Token
+		Data
+			TxnRef
+
+	Response
+		[Transaction details]
+		
+Fetch all products
+	Request
+		Auth
+			Token
+	Response
+		[Transaction details]
+		
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+	
